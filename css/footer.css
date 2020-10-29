@@ -1,0 +1,13 @@
+
+.svg-icon{
+    height: 2.1rem;
+    margin-left:4rem;
+    margin-top: 1rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#head-band{
+    height: 24px;
+    background-color: #FFAF92;
+}
+

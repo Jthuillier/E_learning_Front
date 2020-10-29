@@ -1,0 +1,60 @@
+
+.sidebar{
+    height: 100vh;
+    width: 30vw;
+    background-color: #fff;
+    position: fixed!important;
+    right: 0;
+    z-index: 1;
+    overflow: auto;
+    color:white;
+    background-color: white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    margin: 2rem;
+    border-radius: 20px;
+    border:none;
+    box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.20);
+    height: 2.5rem;
+    width: 20rem;
+    padding: 1.2rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+.head-line{
+    width: 100vw;
+    height: 6.5rem;
+    background-color: #FFAF92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color:white;
+}
+
+#range-btn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) { 
+    
+    .sidebar{
+        width: 100vw;
+    }
+
+
+}

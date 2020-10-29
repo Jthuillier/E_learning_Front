@@ -1,0 +1,48 @@
+
+
+#content{
+    margin-top:5rem;
+    margin-bottom: 5rem;
+}
+
+
+.line{
+    border-top: 0.5px solid #FF8A5E;
+    width: 60rem;
+    margin: 0 auto;
+
+}
+
+.block-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    padding: 2rem;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#img-css{
+    height: 114px;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    
+    .line{
+        width: 90%;
+    }
+
+
+    .block-text{
+        display: block;
+    }
+
+}
